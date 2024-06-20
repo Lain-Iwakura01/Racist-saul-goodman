@@ -8,7 +8,7 @@ race = input("Your race : (Black/White/Brown/Asian): ").lower()
 crime = input("Your crime : (Theft/Slavery/Terrorism/Edging) : ").lower()
 race_list = ["asian", "white", "black", "brown"]
 crime_list = ["theft", "slavery", "terrorism", "edging"]
-# theft (aka average black nigger crime)
+# theft
 if crime not in crime_list and race not in race_list:
     print("Invalid crime and race")
 elif crime == "theft":
